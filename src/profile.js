@@ -61,7 +61,7 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "Project 1 ",
-    name: "Law Firm Management website ",
+    name: "Law - Firm Management website ",
   
     skills: ["HTML, CSS,PHP,Bootstrap,JS"],
     github:"https://github.com/himanshu-98/newDsn",
@@ -72,7 +72,7 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Nuuk Landing Web Page",
+    name: "Nuuk Landing Web-page",
     skills: ["HTML, CSS"],
     github:"https://github.com/ShailajaTripathi/nuuk",
     url: "https://nuukweb.herokuapp.com/",
@@ -81,7 +81,7 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Task Management Website",
+    name: "Task Management Web-page",
     skills: ["HTML, CSS"],
     url: "https://sugary-grape-bandana.glitch.me/",
     github:"https://github.com/ShailajaTripathi/taskManager",
@@ -90,16 +90,16 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Firm Webinar Form Page",
-    skills: ["HTML, CSS,Bootstrap,PHP"],
-    url: "https://www.dsnlegal.com/register_for_conference.php",
-    github:"",
-    detail:" Registration form for the Webinar of DSN Legal firm"
+    name: " Stunning Web-page",
+    skills: ["HTML, CSS"],
+    url: "https://truth-malachite-pruner.glitch.me/#",
+    github:"https://github.com/ShailajaTripathi/stunning-Webapp",
+    detail:" Static web page with a proper navbar and body section"
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Goibibo Clone",
+    name: "Goibibo Clone Web-application",
     skills: ["React,ExpressJS,Javascript,CSS"],
     url: "https://goibibi.herokuapp.com/",
     github:"https://github.com/Sharoof-Khan/Goibibo-Clone",
@@ -109,37 +109,14 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Lynda Online Learning clone application",
-    skills: ["HTML, CSS, JS,EJS"],
-    url: "",
-    github:"https://github.com/sumitsingh-ara/Lynda_Backend",
-    detail:"This is full responsive clone application for online learning"
+    name: "Event Descriptive Website",
+    skills: ["HTML, CSS, Bootstrap"],
+    url: "https://exploremathura.herokuapp.com/",
+    github:"https://github.com/ShailajaTripathi/event",
+    detail:"This is full responsive clone application for showing events of Braj."
   },
 ];
-// Edit your Miscellaneous Activities, its name and the url.
-// You can omit freely anything if you dont have it
-// To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
-const miscellaneous = [
-  {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/ShailajaTripathi",
-  },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/ShailajaTripathi",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/ShailajaTripathi",
-  },
-];
+// 
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
@@ -166,11 +143,9 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
   contact,
   social,
   section2title,
   section3Title,
-  section4Title,
   section5Title,
 };
