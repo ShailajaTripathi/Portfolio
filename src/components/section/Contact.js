@@ -34,7 +34,7 @@ const Contact = () => {
                     {social.instagram && <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                 </div>
-                    {social.resume && <a title="Download Resume" href={social.resume} target="_blank" download><i className="fas fa-download"></i></a>}
+                    {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
                 </div>
                 </div>
             </div>
