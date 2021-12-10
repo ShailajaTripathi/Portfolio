@@ -60,9 +60,8 @@ const section3Title = "Past Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
-    id: "Project 1 ",
+    id: "project1 ",
     name: "Law - Firm Management website ",
-  
     skills: ["HTML, CSS,PHP,Bootstrap,JS"],
     github:"https://github.com/himanshu-98/newDsn",
     url: "https://dsnlegal.com/login.php",
